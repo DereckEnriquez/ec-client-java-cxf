@@ -1,0 +1,61 @@
+/**
+this is a suggestion using SOLID - E1
+ public class ReceiptEC2Client{
+        //attributes getters and setters
+}
+    public class ReceiptList extends ReceiptEC2Client{
+        public void getReceiptList(){
+            //Implementation
+        }
+    }
+    public class UploadReceipt extends ReceiptEC2Client{
+        public void getReceiptList(){
+            //Implementation
+        }
+        public void UpdateReceipt() {
+            //Implementation
+        }
+    }
+    public class CreateReceiptSave extends ReceiptEC2Client{
+        public void createReceiptSave(){
+            //implementation
+        }
+    }
+    
+    public interface Setup{
+        public void setPropeties();
+    }
+    
+    //use interfaces and override all methods
+    public class ReceieptEC2test implements Setup{
+
+        @Override
+        public void setPropeties() {
+        }
+        
+    }
+    public class CorrespondenceTest implements Setup{
+
+        @Override
+        public void setPropeties() {
+        }
+        
+    }
+    public class FormidingAvgiverTest implements Setup{
+        @Override
+        public void setPropeties() {
+        }
+    }
+    public class FormidingMotakerTest implements Setup{
+        @Override
+        public void setPropeties() {
+        }
+    }
+    public class IntermediaryInboundTest implements Setup{
+        @Override
+        public void setPropeties() {
+        }
+    }
+}
+
+**/
